@@ -36,7 +36,7 @@ def download_images(sub_reddits, sub_reddit_download_total, overall_total, downl
                     break
         print("Downloaded", sub_reddit_downloaded, "from", sub_reddit)
         print()
-    print("Downloaded", downloaded, "from", len(sub_reddits), "sub-reddits")
+    print("Downloaded", downloaded, "in total")
 
 ###############################################
 # main()

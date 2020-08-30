@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /src/RedditImageScraper/.vs/RedditImageScraper/v16/*.suo
+/src/RedditImageScraper/RedditImageScraper/*.jpg
