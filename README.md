@@ -1,4 +1,5 @@
 # RedditImageScraper
+
 Console application for downloading images from Reddit in Python
 
 ![Screenshot](https://github.com/James-P-D/RedditImageScraper/blob/master/screenshot.gif)
