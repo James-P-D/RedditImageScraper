@@ -12,7 +12,7 @@
     <Name>RedditImageScraper</Name>
     <RootNamespace>RedditImageScraper</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>dogpictures dogswithjobs GuiltyDogs dog</CommandLineArguments>
+    <CommandLineArguments>-r dogpictures dogswithjobs GuiltyDogs dog -st 10 -t 1000 -f dogs</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -25,6 +25,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RedditImageScraper.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.ini">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
