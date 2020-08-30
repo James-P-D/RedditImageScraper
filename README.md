@@ -7,14 +7,14 @@ Console application for downloading images from Reddit in Python
 
 This short Python script was created for the mass-downloading of images from [Reddit](https://reddit.com/). It will be used later for creating data-sets for several Machine Learning projects.
 
-In order to use the script, you will have to have a Reddit account sign-up to create a [developer account](https://www.reddit.com/prefs/apps/). You will be assigned a `client_id` and `client_secret` which you have to enter in [https://github.com/James-P-D/RedditImageScraper/blob/master/src/RedditImageScraper/RedditImageScraper/config.ini](config.ini) before you run the script.
+In order to use the script, you will have to have a Reddit account sign-up to create a [developer account](https://www.reddit.com/prefs/apps/). You will be assigned a `client_id` and `client_secret` which you have to enter in [config.ini](https://github.com/James-P-D/RedditImageScraper/blob/master/src/RedditImageScraper/RedditImageScraper/config.ini) before you run the script.
 
 ## Usage
 
-The `-r` parameter provides a list of sub-reddits to search.
-The `-st` parameter can specify the maximum number of images to download from each sub-reddit. Defaults to 1000.
-The `-t` parameter can specify the total number of images to download across all sub-reddits before we abort. Defaults to 10000.
-The `-f` parameter can specify the folder into which we download the images. Defaults to `download`.
+The `-r` parameter provides a list of sub-reddits to search.  
+The `-st` parameter can specify the maximum number of images to download from each sub-reddit. Defaults to 1000.  
+The `-t` parameter can specify the total number of images to download across all sub-reddits before we abort. Defaults to 10000.  
+The `-f` parameter can specify the folder into which we download the images. Defaults to `download`.  
 
 For example, to download at-most 20 pictures from the [dogpictures](https://www.reddit.com/r/dogpictures/), [dogswithjobs](https://www.reddit.com/r/dogswithjobs/), [GuiltyDogs](https://www.reddit.com/r/GuiltyDogs/), and [dogs](https://www.reddit.com/r/dogs/) sub-reddits, aborting when we have 50 files in total, and saving the files to a folder titled `dog`, we would use the following:
 
